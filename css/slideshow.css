@@ -1,0 +1,78 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+h1    {font-size: 30px; text-align:center; background: #e1e1e1; padding:40px 0; margin:0;}
+
+/* ===========================
+   ===== Slideshow  ===== 
+   =========================== */	
+   
+
+ 
+   
+#slideshow{
+	position: relative;
+	max-width: 1000px;
+	margin:20px auto;
+}
+
+.slide{
+	width:100%;
+	display: none;
+	text-align: center;
+}
+
+.slide img{
+	vertical-align: middle;
+	width:100%;
+}
+
+.caption{
+	position: absolute;
+	width:100%;
+	text-align: cetner;
+	font-size: 5vw;
+	font-weight: bold;
+	z-index: 2;
+	top: 50%;
+	color:#fff;
+
+}
+
+.prev, .next{
+	position: absolute;
+	font-size: 40px;
+	cursor: pointer;
+	top: 50%;
+	z-index: 1000;
+	color:#fff;
+}
+
+.prev{
+	
+	left: 30px;
+}
+.next{
+	right:30px;
+}
+
+.dots{
+	margin: 0 auto;
+	z-index:4;
+	text-align: center;
+}
+
+.dot{
+	display: inline-block;
+	background: #dedede;
+	width:15px;
+	height: 15px;
+	border-radius: 50%;
+	margin:5px;
+	cursor: pointer;
+}
+
+.dot:hover, .dot.active{
+	background: #bbb;
+	
+}
+
